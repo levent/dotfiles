@@ -10,7 +10,7 @@
 # Example:
 #   $ git log --oneline --decorate -10 --color | ansi2html
 # 
-# Author:  Mislav Marohnić  <mislav.marohnic@gmail.com>
+# Author:  Mislav Marohni <mislav.marohnic@gmail.com>
 # 
 # Try it out:
 #   $ ruby -e '30.upto(37) {|n| puts "\e[#{n}mHi \e[1;#{n}mho\e[m" }' | ansi2html
