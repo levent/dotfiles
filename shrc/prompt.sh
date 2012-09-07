@@ -38,8 +38,6 @@ elif [[ -n $ZSH_VERSION ]]; then
 
   # show current rbenv version if different from rbenv global
   rbenv_version_status() {
-    local ver=$(rbenv version-name)
-    [ "$(rbenv global)" != "$ver" ] && echo "[$ver]"
   }
 
   # put fancy stuff on the right
