@@ -2,6 +2,7 @@ if which noglob >/dev/null; then
   alias rake='noglob rake' # allows square brackets for rake task invocation
   alias brake='noglob bundle exec rake' # execute the bundled rake gem
   alias b='noglob bundle exec'
+  alias brspec='noglob bundle exec rspec'
 fi
 
 # console
