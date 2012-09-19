@@ -4,6 +4,8 @@ set -e
 here="$(dirname "$0")"
 here="$(cd "$here"; pwd)"
 
+mkdir ~/.tmp/
+
 for file in "$here"/*; do
   name="$(basename "$file" .md)"
   [[ $name = bin ]] && dotname="$name" || dotname=".${name}"
