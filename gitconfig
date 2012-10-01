@@ -1,31 +1,31 @@
 [user]
-	name = Levent Ali
-	email = lebreeze@gmail.com
+  name = Levent Ali
+  email = lebreeze@gmail.com
 [apply]
-	whitespace = nowarn
+  whitespace = nowarn
 [alias]
-	nb = checkout -b
-	lc = log ORIG_HEAD.. --stat --no-merges
-	conflicts = !git ls-files --unmerged | cut -c51- | sort -u | xargs $EDITOR
-	resolve = !git ls-files --unmerged | cut -c51- | sort -u | xargs git add
-	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ar)%Creset' --abbrev-commit --date=relative
-	ff = merge --ff-only @{u}
+  nb = checkout -b
+  lc = log ORIG_HEAD.. --stat --no-merges
+  conflicts = !git ls-files --unmerged | cut -c51- | sort -u | xargs $EDITOR
+  resolve = !git ls-files --unmerged | cut -c51- | sort -u | xargs git add
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ar)%Creset' --abbrev-commit --date=relative
+  ff = merge --ff-only @{u}
   g = grep
   st = status
 [color]
-	diff = auto
-	status = auto
-	branch = auto
+  diff = auto
+  status = auto
+  branch = auto
 [core]
-	excludesfile = /Users/levent/.gitignore
-	quotepath = false
-	whitespace = -blank-at-eol
+  excludesfile = /Users/levent/.gitignore
+  quotepath = false
+  whitespace = -blank-at-eol
 [mirror]
-	summary = true
+  summary = true
 [branch]
-	autosetupmerge = true
-	autosetuprebase = always
+  autosetupmerge = true
+  autosetuprebase = always
 [push]
-	default = tracking
+  default = tracking
 [rebase]
-	autosquash = true
+  autosquash = true
