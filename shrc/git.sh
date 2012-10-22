@@ -4,7 +4,7 @@ alias gd='git diff'
 alias gc='git commit -v'
 alias gca='git commit -v -a'
 alias gb='git branch -v'
-alias st='git status -sb'
+alias st='git status -s'
 
 function gco {
   if [ $# -eq 0 ]; then
