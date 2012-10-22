@@ -4,7 +4,8 @@ set -e
 here="$(dirname "$0")"
 here="$(cd "$here"; pwd)"
 
-mkdir ~/.tmp/
+mkdir $HOME/.tmp/
+rm $HOME/.zshrc
 
 for file in "$here"/*; do
   name="$(basename "$file" .md)"
