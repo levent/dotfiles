@@ -5,4 +5,4 @@ alias la='ls -A'
 alias v='vim -p'
 alias p='ps waxu'
 
-alias tinfo='tmux list-sessions ; tmux list-windows ; tmux list-panes'
+alias tinfo='echo "SESSIONS" ; tmux list-sessions ; echo "WINDOWS" ; tmux list-windows ; echo "PANES" ; tmux list-panes'
