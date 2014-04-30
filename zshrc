@@ -27,6 +27,8 @@ if [ -d $ZSH ]; then
   }
 fi
 
+fpath=(/usr/local/share/zsh-completions $fpath)
+
 # Load and run compinit
 autoload -U compinit
 compinit -i
@@ -47,3 +49,6 @@ export GREP_COLOR='1;32'
 for file in ~/.shrc/*.sh; do
   source "$file"
 done
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
