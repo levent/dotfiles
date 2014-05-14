@@ -1,3 +1,4 @@
+alias g='git'
 alias gl='git pull'
 alias gp='git push'
 alias gd='git diff'
