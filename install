@@ -5,7 +5,6 @@ here="$(dirname "$0")"
 here="$(cd "$here"; pwd)"
 
 mkdir -p $HOME/.tmp/
-rm -f $HOME/.zshrc
 
 for file in "$here"/*; do
   name="$(basename "$file" .md)"
