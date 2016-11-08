@@ -29,3 +29,7 @@
   default = tracking
 [rebase]
   autosquash = true
+[url "git@github.com:"]
+  insteadOf = gh:
+[http]
+	postBuffer = 1048576000
