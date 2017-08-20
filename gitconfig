@@ -1,3 +1,5 @@
+[credential]
+	helper = osxkeychain
 [user]
   name = Levent Ali
   email = lebreeze@gmail.com
