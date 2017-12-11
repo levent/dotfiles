@@ -38,6 +38,7 @@ xcuserdata
 *.moved-aside
 *.xcuserstate
 
+# Created by https://www.gitignore.io/api/swift
 
 ### Swift ###
 # Xcode
