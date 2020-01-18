@@ -1,8 +1,9 @@
 [credential]
-	helper = osxkeychain
+  helper = osxkeychain
 [user]
   name = Levent Ali
-  email = lebreeze@gmail.com
+  email = levent@purebreeze.com
+  signingkey = 65762582A09F9318!
 [apply]
   whitespace = nowarn
 [alias]
@@ -34,4 +35,6 @@
 [url "git@github.com:"]
   insteadOf = gh:
 [http]
-	postBuffer = 1048576000
+  postBuffer = 1048576000
+[commit]
+  gpgsign = true

@@ -14,10 +14,3 @@ for file in "$here"/*; do
     ln -sfv ${file#$HOME/} "${HOME}/${dotname}"
   fi
 done
-# 
-# rm -rf "${ZDOTDIR:-$HOME}/.zprezto"
-# git clone --recursive https://github.com/levent/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
-# 
-# for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
-#   ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
-# done
