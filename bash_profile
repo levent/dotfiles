@@ -12,3 +12,4 @@ fi
 for file in ~/.shrc/*.sh; do
   source "$file"
 done
+export GPG_TTY=$(tty)
