@@ -6,10 +6,10 @@ Levent's configuration files for bash, zsh, git, ruby, and more.
 
 Clone somewhere, then run the `install` script:
 
-~~~ sh
+```sh
 $ git clone git://github.com/levent/dotfiles.git ~/dotfiles
-$ ~/dotfiles/install
-~~~
+$ ~/dotfiles/script/install
+```
 
 It won't touch your existing dotfiles, but will symlink the ones that don't
 exist. Optionally, move your existing dotfiles to a backup location before
