@@ -8,7 +8,7 @@ Clone somewhere, then run the `install` script:
 
 ```sh
 $ git clone git://github.com/levent/dotfiles.git ~/dotfiles
-$ ~/dotfiles/script/install
+$ ~/dotfiles/install
 ```
 
 It won't touch your existing dotfiles, but will symlink the ones that don't
