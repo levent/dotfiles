@@ -102,3 +102,4 @@ nfind() { find . -name "*$1*" }
 DEFAULT_USER=`whoami`
 eval "$(rbenv init -)"
 export GPG_TTY=$(tty)
+export PATH="/usr/local/sbin:$PATH"
