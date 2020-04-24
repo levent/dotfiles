@@ -68,7 +68,16 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git ruby bundler brew vscode alias-finder)
+plugins=(
+  alias-finder
+  brew
+  bundler
+  dotenv
+  git
+  git-prompt
+  ruby
+  vscode
+)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -103,3 +112,4 @@ DEFAULT_USER=`whoami`
 eval "$(rbenv init -)"
 export GPG_TTY=$(tty)
 export PATH="/usr/local/sbin:$PATH"
+export PATH="/usr/local/opt/elasticsearch@2.4/bin:$PATH"
